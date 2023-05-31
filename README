@@ -1,3 +1,11 @@
+./configure  CC=/opt/pu300/host/usr/bin/powerpc-buildroot-linux-uclibcspe-gcc --host=powerpc-linux --prefix=${REPATH}/Output 
+make
+sudo make install
+
+
+lib位置：虚拟机计算机/Output/lib
+
+
 libssh2 - SSH2 library
 ======================
 
