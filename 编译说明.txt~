@@ -1,0 +1,17 @@
+
+https://blog.csdn.net/whatday/article/details/96977752
+./configure \
+	CC=/opt/pu300/host/usr/bin/powerpc-buildroot-linux-uclibcspe-gcc \
+	--host=powerpc-linux \
+	--prefix=${REPATH}/Output 
+
+
+make
+
+sudo make install
+
+
+lib位置：虚拟机计算机/Output/lib
+
+
+./configure  CC=/opt/pu300/host/usr/bin/powerpc-buildroot-linux-uclibcspe-gcc --host=powerpc-linux --prefix=${REPATH}/Output 
